@@ -1,0 +1,152 @@
+body {
+    background-color: #d9d9d9;
+}
+
+#degradado {
+    background-image: linear-gradient(to right, #ffde59, #df813a);
+    height: 200px;
+    margin: -8px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: flex-start; /* Alinea horizontalmente al inicio (izquierda) */
+}
+
+#degradado button {
+    background-color: transparent;
+    border: none;
+    margin-right: 140px; /* Ajusta el margen derecho para separar el botón de los otros elementos */
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-left: 140px;
+}
+
+.busqueda h1 {
+    margin-bottom: 10px; /* Añade un margen inferior para separar el título de la barra de búsqueda */
+    color: white;
+}
+
+
+.busqueda .search-bar {
+    background-color: white;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px;
+    width: 450px; /* Ancho de la barra de búsqueda */
+}
+
+#maiz {
+    color: #177123;
+    margin-left: 280px; /* Empuja #maiz hacia la derecha */
+    font-size: 2.5pc;
+}
+
+#mono{
+    width: 200px;
+    height: 200px;
+}
+
+.ofertas { /* propiedades de la clase ofertas*/
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#of1, #descuento, #of2 { /*propiedades de los recuadros de los div*/
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+#of1 img, #descuento img, #of2 img { /* recuadro que contiene el texto y la imagen*/
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#of1 p, #descuento p, #of2 p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.cerca{ /* propiedades de la clase cerca*/
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:larger;
+}
+
+#raices, #blanquita, #siembra { /*propiedades de los recuadros de los div*/
+    background-color: #a6a6a6;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-direction: row;
+}
+
+#raices img, #blanquita img, #siembra img { /* recuadro que contiene el texto y la imagen*/
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#raices p, #blanquita p, #siembra p {
+    flex-grow: 1;
+    margin: 5px 0;
+}
+
+.contendeor{ /* para que el texto vaya hacia abajo enfrente de la imagen*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#n1{
+    color: rgb(147, 198, 71);
+    font-weight: 750; /*grosor de las letras*/
+
+}
+
+#n2{
+    color: #ffb55d;
+    font-weight: 750; /*grosor de las letras*/
+
+}
+
+#n3{
+    color: #5271ff;
+    font-weight: 750; /*grosor de las letras*/
+
+}
+
+#cont{ /* para que el texto vaya hacia abajo enfrente de la imagen*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+}
+
+#m1,#m2,#m3{
+    color:#f90000;
+    font-weight: 750; /*grosor de las letras*/
+}

@@ -1,0 +1,80 @@
+body{
+background-color: #f0f0f0;
+}
+
+#azul {
+    background-color: rgb(9, 9, 66);
+    height: 100px;
+    margin: -8px;}
+
+.button-container {
+    display: flex; /* Alinea los elementos en línea */
+    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin-left: 120px; /* Margen izquierdo */
+    margin-right: 100px; /* Margen derecho */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+.button-link {
+    display: inline-flex; /* Mantiene los elementos en línea y permite flexibilidad */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 10px; /* Espacio alrededor del contenido dentro del enlace */
+    margin-right: 240px; /* Espacio entre los botones */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    white-space: nowrap; /*evita que el texto se acumule abajo y siga de frente*/
+}
+
+.button-link:hover {
+    background-color: #80a4ff;
+    padding: 10px;
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+}
+#acerca, #comentarios {
+    width: auto; /* Ajusta el ancho automáticamente según el contenido */
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    height: auto;
+}
+
+.descripcion-empresa {
+    margin: 200px;
+    padding: 20px;
+    background-color: white; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 25px; /*tamaño de la letra*/
+    height: auto;
+}
+
+.descripcion-empresa p {
+    color: #333; /* Color del texto */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    font-weight: 700; /*anchura del texto*/
+}
+
+
+.imagen-empresa img {
+    margin-left: 100px;
+    max-width: 100%;
+    height: auto;
+    align-items: left;
+}

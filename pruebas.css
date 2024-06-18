@@ -1,0 +1,79 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 4vw;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50; /* Color verde para el encabezado */
+    color: white;
+    text-align: center;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav button {
+    background-color: #4CAF50; /* Color verde para los botones */
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+    border: none;
+    text-decoration: none;
+    display: inline-block; /* Asegura que los botones se muestren en línea */
+}
+
+nav button img {
+    vertical-align: middle; /* Alinea las imágenes con el texto */
+}
+
+/* Estilos para la sección de búsqueda */
+#busqueda {
+    margin: 2vw;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 1vw;
+}
+
+/* Estilos para el carrusel */
+#carrusel .imagenes {
+    display: flex;
+    overflow-x: auto; /* Permite desplazamiento horizontal si las imágenes no caben */
+}
+
+#carrusel img {
+    flex-shrink: 0; /* Evita que las imágenes se reduzcan cuando no hay suficiente espacio */
+    width: 100%;
+}
+
+/* Estilos para la sección de servicios */
+#bajos div {
+    text-align: center;
+}
+
+#bajos img {
+    width: 50%; /* Ajusta el tamaño de las imágenes según el ancho del contenedor */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
